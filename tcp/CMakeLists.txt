@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+project(tcp)
+file(GLOB src ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../include)
+link_directories(${PROJECT_SOURCE_DIR}/../include)
+add_library(tcp SHARED ${src})
+target_link_libraries(tcp thread reactor http common)

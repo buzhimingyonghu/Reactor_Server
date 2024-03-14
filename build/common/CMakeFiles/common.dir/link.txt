@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libcommon.so -o ../../include/libcommon.so CMakeFiles/common.dir/Buffer.cpp.o CMakeFiles/common.dir/Channel.cpp.o 

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(common)
+file(GLOB src ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../include)
+add_library(common SHARED ${src})

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/server.dir/main.cpp.o -o ../server   -L/home/nlove/temp/server/include  -Wl,-rpath,/home/nlove/temp/server/include ../include/libtcp.so ../include/libthread.so ../include/libreactor.so ../include/libhttp.so ../include/libcommon.so 
