@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nlove/temp/server
+CMAKE_SOURCE_DIR = /home/nlove/temp/Reactor_Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nlove/temp/server/build
+CMAKE_BINARY_DIR = /home/nlove/temp/Reactor_Server/build
 
 # Include any dependencies generated for this target.
 include http/CMakeFiles/http.dir/depend.make
@@ -72,30 +72,30 @@ include http/CMakeFiles/http.dir/flags.make
 http/CMakeFiles/http.dir/HttpRequest.cpp.o: http/CMakeFiles/http.dir/flags.make
 http/CMakeFiles/http.dir/HttpRequest.cpp.o: ../http/HttpRequest.cpp
 http/CMakeFiles/http.dir/HttpRequest.cpp.o: http/CMakeFiles/http.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlove/temp/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object http/CMakeFiles/http.dir/HttpRequest.cpp.o"
-	cd /home/nlove/temp/server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT http/CMakeFiles/http.dir/HttpRequest.cpp.o -MF CMakeFiles/http.dir/HttpRequest.cpp.o.d -o CMakeFiles/http.dir/HttpRequest.cpp.o -c /home/nlove/temp/server/http/HttpRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlove/temp/Reactor_Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object http/CMakeFiles/http.dir/HttpRequest.cpp.o"
+	cd /home/nlove/temp/Reactor_Server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT http/CMakeFiles/http.dir/HttpRequest.cpp.o -MF CMakeFiles/http.dir/HttpRequest.cpp.o.d -o CMakeFiles/http.dir/HttpRequest.cpp.o -c /home/nlove/temp/Reactor_Server/http/HttpRequest.cpp
 
 http/CMakeFiles/http.dir/HttpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http.dir/HttpRequest.cpp.i"
-	cd /home/nlove/temp/server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nlove/temp/server/http/HttpRequest.cpp > CMakeFiles/http.dir/HttpRequest.cpp.i
+	cd /home/nlove/temp/Reactor_Server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nlove/temp/Reactor_Server/http/HttpRequest.cpp > CMakeFiles/http.dir/HttpRequest.cpp.i
 
 http/CMakeFiles/http.dir/HttpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http.dir/HttpRequest.cpp.s"
-	cd /home/nlove/temp/server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nlove/temp/server/http/HttpRequest.cpp -o CMakeFiles/http.dir/HttpRequest.cpp.s
+	cd /home/nlove/temp/Reactor_Server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nlove/temp/Reactor_Server/http/HttpRequest.cpp -o CMakeFiles/http.dir/HttpRequest.cpp.s
 
 http/CMakeFiles/http.dir/HttpResponse.cpp.o: http/CMakeFiles/http.dir/flags.make
 http/CMakeFiles/http.dir/HttpResponse.cpp.o: ../http/HttpResponse.cpp
 http/CMakeFiles/http.dir/HttpResponse.cpp.o: http/CMakeFiles/http.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlove/temp/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object http/CMakeFiles/http.dir/HttpResponse.cpp.o"
-	cd /home/nlove/temp/server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT http/CMakeFiles/http.dir/HttpResponse.cpp.o -MF CMakeFiles/http.dir/HttpResponse.cpp.o.d -o CMakeFiles/http.dir/HttpResponse.cpp.o -c /home/nlove/temp/server/http/HttpResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nlove/temp/Reactor_Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object http/CMakeFiles/http.dir/HttpResponse.cpp.o"
+	cd /home/nlove/temp/Reactor_Server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT http/CMakeFiles/http.dir/HttpResponse.cpp.o -MF CMakeFiles/http.dir/HttpResponse.cpp.o.d -o CMakeFiles/http.dir/HttpResponse.cpp.o -c /home/nlove/temp/Reactor_Server/http/HttpResponse.cpp
 
 http/CMakeFiles/http.dir/HttpResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http.dir/HttpResponse.cpp.i"
-	cd /home/nlove/temp/server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nlove/temp/server/http/HttpResponse.cpp > CMakeFiles/http.dir/HttpResponse.cpp.i
+	cd /home/nlove/temp/Reactor_Server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nlove/temp/Reactor_Server/http/HttpResponse.cpp > CMakeFiles/http.dir/HttpResponse.cpp.i
 
 http/CMakeFiles/http.dir/HttpResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http.dir/HttpResponse.cpp.s"
-	cd /home/nlove/temp/server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nlove/temp/server/http/HttpResponse.cpp -o CMakeFiles/http.dir/HttpResponse.cpp.s
+	cd /home/nlove/temp/Reactor_Server/build/http && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nlove/temp/Reactor_Server/http/HttpResponse.cpp -o CMakeFiles/http.dir/HttpResponse.cpp.s
 
 # Object files for target http
 http_OBJECTS = \
@@ -109,18 +109,18 @@ http_EXTERNAL_OBJECTS =
 ../include/libhttp.so: http/CMakeFiles/http.dir/HttpResponse.cpp.o
 ../include/libhttp.so: http/CMakeFiles/http.dir/build.make
 ../include/libhttp.so: http/CMakeFiles/http.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nlove/temp/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../include/libhttp.so"
-	cd /home/nlove/temp/server/build/http && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/http.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nlove/temp/Reactor_Server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../include/libhttp.so"
+	cd /home/nlove/temp/Reactor_Server/build/http && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/http.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 http/CMakeFiles/http.dir/build: ../include/libhttp.so
 .PHONY : http/CMakeFiles/http.dir/build
 
 http/CMakeFiles/http.dir/clean:
-	cd /home/nlove/temp/server/build/http && $(CMAKE_COMMAND) -P CMakeFiles/http.dir/cmake_clean.cmake
+	cd /home/nlove/temp/Reactor_Server/build/http && $(CMAKE_COMMAND) -P CMakeFiles/http.dir/cmake_clean.cmake
 .PHONY : http/CMakeFiles/http.dir/clean
 
 http/CMakeFiles/http.dir/depend:
-	cd /home/nlove/temp/server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nlove/temp/server /home/nlove/temp/server/http /home/nlove/temp/server/build /home/nlove/temp/server/build/http /home/nlove/temp/server/build/http/CMakeFiles/http.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nlove/temp/Reactor_Server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nlove/temp/Reactor_Server /home/nlove/temp/Reactor_Server/http /home/nlove/temp/Reactor_Server/build /home/nlove/temp/Reactor_Server/build/http /home/nlove/temp/Reactor_Server/build/http/CMakeFiles/http.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : http/CMakeFiles/http.dir/depend
 

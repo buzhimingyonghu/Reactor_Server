@@ -1,7 +1,6 @@
 #pragma once
 #include <functional>
 
-// 问题1 作用是什么
 enum class FDevent
 {
     ReadEvent = 0x02,
@@ -12,7 +11,6 @@ class Channel
 {
 private:
     int c_fd;
-    // 问题2 能否修改成FDevent类型
     int c_event;
     void *c_arg;
 

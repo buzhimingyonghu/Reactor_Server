@@ -26,8 +26,6 @@ private:
     std::map<int, Channel *> c_channelMap;
     std::thread::id c_threadId;
     std::mutex c_mutex;
-
-    // 问题1 作用是什么
     std::string c_threadName;
     int c_socketPair[2];
 

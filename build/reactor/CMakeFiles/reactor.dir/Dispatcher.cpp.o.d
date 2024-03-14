@@ -1,8 +1,10 @@
 reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.o: \
- /home/nlove/temp/server/reactor/Dispatcher.cpp \
- /usr/include/stdc-predef.h /home/nlove/temp/server/reactor/Dispatcher.h \
- /home/nlove/temp/server/reactor/EventLoop.h \
- /home/nlove/temp/server/common/Channel.h /usr/include/c++/11/functional \
+ /home/nlove/temp/Reactor_Server/reactor/Dispatcher.cpp \
+ /usr/include/stdc-predef.h \
+ /home/nlove/temp/Reactor_Server/reactor/Dispatcher.h \
+ /home/nlove/temp/Reactor_Server/reactor/EventLoop.h \
+ /home/nlove/temp/Reactor_Server/common/Channel.h \
+ /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

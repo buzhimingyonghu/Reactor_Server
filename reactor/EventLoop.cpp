@@ -10,14 +10,12 @@ EventLoop::EventLoop(std::string threadName)
     c_threadId = std::this_thread::get_id();
     c_threadName = threadName == std::string() ? "mainLoop" : threadName;
     c_dispatcher = new EpollDispatcher(this);
-    // 问题1 作用不是很清楚
     int ret = socketpair(AF_UNIX, SOCK_STREAM, 0, c_socketPair);
     if (ret == -1)
     {
         perror("socketpair");
         exit(0);
     }
-    //
     auto obj = std::bind(&EventLoop::ReadMessage, this);
     Channel *channel = new Channel(c_socketPair[1], FDevent::ReadEvent, obj, nullptr, nullptr, this);
     AddTask(ElemType::ADD, channel);
@@ -35,7 +33,6 @@ int EventLoop::run()
     }
     while (!c_isQuit)
     {
-        // 问题2，忘了作用了
         c_dispatcher->DispatcherEvent();
         ProcessTaskQ();
     }
@@ -47,7 +44,6 @@ int EventLoop::AddTask(ElemType type, Channel *channel)
     c_mutex.lock();
     c_taskQue.push({type, channel});
     c_mutex.unlock();
-    // 问题5
     if (c_threadId == std::this_thread::get_id())
     {
         ProcessTaskQ();
@@ -66,9 +62,7 @@ int EventLoop::EventActive(int fd, int event)
         return -1;
     }
     Channel *channel = c_channelMap[fd];
-    // 问题3//为什么相等就退出
     assert(channel->GetFd() == fd);
-    // 问题4 这个函数参数event谁传的，有啥作用
     if (event & static_cast<int>(FDevent::ReadEvent) && channel->readCallBack)
     {
         channel->readCallBack(const_cast<void *>(channel->GetArg()));

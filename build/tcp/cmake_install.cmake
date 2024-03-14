@@ -1,4 +1,4 @@
-# Install script for directory: /home/nlove/temp/server/tcp
+# Install script for directory: /home/nlove/temp/Reactor_Server/tcp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

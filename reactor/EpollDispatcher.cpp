@@ -34,7 +34,6 @@ int EpollDispatcher::Delete()
         perror("epoll_ctl_del");
         return -1;
     }
-    // 问题1
     c_channel->destroyCallBack(const_cast<void *>(c_channel->GetArg()));
     return ret;
 }

@@ -1,8 +1,10 @@
 reactor/CMakeFiles/reactor.dir/EventLoop.cpp.o: \
- /home/nlove/temp/server/reactor/EventLoop.cpp /usr/include/stdc-predef.h \
- /home/nlove/temp/server/reactor/EventLoop.h \
- /home/nlove/temp/server/reactor/Dispatcher.h \
- /home/nlove/temp/server/common/Channel.h /usr/include/c++/11/functional \
+ /home/nlove/temp/Reactor_Server/reactor/EventLoop.cpp \
+ /usr/include/stdc-predef.h \
+ /home/nlove/temp/Reactor_Server/reactor/EventLoop.h \
+ /home/nlove/temp/Reactor_Server/reactor/Dispatcher.h \
+ /home/nlove/temp/Reactor_Server/common/Channel.h \
+ /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -165,7 +167,7 @@ reactor/CMakeFiles/reactor.dir/EventLoop.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/nlove/temp/server/reactor/EpollDispatcher.h \
+ /home/nlove/temp/Reactor_Server/reactor/EpollDispatcher.h \
  /usr/include/x86_64-linux-gnu/sys/epoll.h \
  /usr/include/x86_64-linux-gnu/bits/epoll.h /usr/include/assert.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \

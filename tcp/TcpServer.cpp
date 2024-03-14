@@ -61,7 +61,6 @@ int TcpServer::acceptConnection()
 {
     int cfd = accept(c_lfd, NULL, NULL);
     EventLoop *evLoop = c_pool->takeWorkerLoop();
-    // 问题1需不要创建变量存储
     new TcpConnection(cfd, evLoop);
     return 0;
 }

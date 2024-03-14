@@ -1,4 +1,4 @@
-# Install script for directory: /home/nlove/temp/server/http
+# Install script for directory: /home/nlove/temp/Reactor_Server/http
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

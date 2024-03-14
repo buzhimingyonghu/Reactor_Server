@@ -7,7 +7,7 @@ class EpollDispatcher : public Dispatcher
 private:
     int c_epfd;
     struct epoll_event *c_events;
-    // 问题1 啥作用
+    // epoll_event的个数
     const int c_maxNode = 520;
 
 public:

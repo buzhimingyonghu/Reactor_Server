@@ -1,4 +1,4 @@
-# Install script for directory: /home/nlove/temp/server
+# Install script for directory: /home/nlove/temp/Reactor_Server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,27 +44,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nlove/temp/server/build/tcp/cmake_install.cmake")
+  include("/home/nlove/temp/Reactor_Server/build/tcp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nlove/temp/server/build/common/cmake_install.cmake")
+  include("/home/nlove/temp/Reactor_Server/build/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nlove/temp/server/build/thread/cmake_install.cmake")
+  include("/home/nlove/temp/Reactor_Server/build/thread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nlove/temp/server/build/http/cmake_install.cmake")
+  include("/home/nlove/temp/Reactor_Server/build/http/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nlove/temp/server/build/reactor/cmake_install.cmake")
+  include("/home/nlove/temp/Reactor_Server/build/reactor/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nlove/temp/server/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nlove/temp/Reactor_Server/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

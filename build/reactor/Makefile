@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nlove/temp/server
+CMAKE_SOURCE_DIR = /home/nlove/temp/Reactor_Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nlove/temp/server/build
+CMAKE_BINARY_DIR = /home/nlove/temp/Reactor_Server/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nlove/temp/server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nlove/temp/server/build/CMakeFiles /home/nlove/temp/server/build/reactor//CMakeFiles/progress.marks
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nlove/temp/server/build/CMakeFiles 0
+	cd /home/nlove/temp/Reactor_Server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nlove/temp/Reactor_Server/build/CMakeFiles /home/nlove/temp/Reactor_Server/build/reactor//CMakeFiles/progress.marks
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nlove/temp/Reactor_Server/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/clean
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/preinstall
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/preinstall
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nlove/temp/server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nlove/temp/Reactor_Server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 reactor/CMakeFiles/reactor.dir/rule:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/CMakeFiles/reactor.dir/rule
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reactor/CMakeFiles/reactor.dir/rule
 .PHONY : reactor/CMakeFiles/reactor.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ reactor: reactor/CMakeFiles/reactor.dir/rule
 
 # fast build rule for target.
 reactor/fast:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/build
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/build
 .PHONY : reactor/fast
 
 Dispatcher.o: Dispatcher.cpp.o
@@ -135,7 +135,7 @@ Dispatcher.o: Dispatcher.cpp.o
 
 # target to build an object file
 Dispatcher.cpp.o:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.o
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.o
 .PHONY : Dispatcher.cpp.o
 
 Dispatcher.i: Dispatcher.cpp.i
@@ -143,7 +143,7 @@ Dispatcher.i: Dispatcher.cpp.i
 
 # target to preprocess a source file
 Dispatcher.cpp.i:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.i
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.i
 .PHONY : Dispatcher.cpp.i
 
 Dispatcher.s: Dispatcher.cpp.s
@@ -151,7 +151,7 @@ Dispatcher.s: Dispatcher.cpp.s
 
 # target to generate assembly for a file
 Dispatcher.cpp.s:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.s
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/Dispatcher.cpp.s
 .PHONY : Dispatcher.cpp.s
 
 EpollDispatcher.o: EpollDispatcher.cpp.o
@@ -159,7 +159,7 @@ EpollDispatcher.o: EpollDispatcher.cpp.o
 
 # target to build an object file
 EpollDispatcher.cpp.o:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EpollDispatcher.cpp.o
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EpollDispatcher.cpp.o
 .PHONY : EpollDispatcher.cpp.o
 
 EpollDispatcher.i: EpollDispatcher.cpp.i
@@ -167,7 +167,7 @@ EpollDispatcher.i: EpollDispatcher.cpp.i
 
 # target to preprocess a source file
 EpollDispatcher.cpp.i:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EpollDispatcher.cpp.i
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EpollDispatcher.cpp.i
 .PHONY : EpollDispatcher.cpp.i
 
 EpollDispatcher.s: EpollDispatcher.cpp.s
@@ -175,7 +175,7 @@ EpollDispatcher.s: EpollDispatcher.cpp.s
 
 # target to generate assembly for a file
 EpollDispatcher.cpp.s:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EpollDispatcher.cpp.s
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EpollDispatcher.cpp.s
 .PHONY : EpollDispatcher.cpp.s
 
 EventLoop.o: EventLoop.cpp.o
@@ -183,7 +183,7 @@ EventLoop.o: EventLoop.cpp.o
 
 # target to build an object file
 EventLoop.cpp.o:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EventLoop.cpp.o
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EventLoop.cpp.o
 .PHONY : EventLoop.cpp.o
 
 EventLoop.i: EventLoop.cpp.i
@@ -191,7 +191,7 @@ EventLoop.i: EventLoop.cpp.i
 
 # target to preprocess a source file
 EventLoop.cpp.i:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EventLoop.cpp.i
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EventLoop.cpp.i
 .PHONY : EventLoop.cpp.i
 
 EventLoop.s: EventLoop.cpp.s
@@ -199,7 +199,7 @@ EventLoop.s: EventLoop.cpp.s
 
 # target to generate assembly for a file
 EventLoop.cpp.s:
-	cd /home/nlove/temp/server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EventLoop.cpp.s
+	cd /home/nlove/temp/Reactor_Server/build && $(MAKE) $(MAKESILENT) -f reactor/CMakeFiles/reactor.dir/build.make reactor/CMakeFiles/reactor.dir/EventLoop.cpp.s
 .PHONY : EventLoop.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nlove/temp/server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nlove/temp/Reactor_Server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

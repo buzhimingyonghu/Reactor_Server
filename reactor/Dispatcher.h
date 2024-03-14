@@ -12,15 +12,15 @@ protected:
 
 public:
     Dispatcher(EventLoop *evLoop);
-    virtual ~Dispatcher();
+    virtual ~Dispatcher() = 0;
     // 添加事件
-    virtual int Add();
+    virtual int Add() = 0;
     // 删除事件
-    virtual int Delete();
+    virtual int Delete() = 0;
     // 修改事件
-    virtual int Modify();
+    virtual int Modify() = 0;
     // 事件检测
-    virtual int DispatcherEvent(int timeout = 2);
+    virtual int DispatcherEvent(int timeout = 2) = 0;
     inline void SetChannel(Channel *channel)
     {
         c_channel = channel;

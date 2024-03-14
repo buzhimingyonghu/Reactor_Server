@@ -1,6 +1,7 @@
 thread/CMakeFiles/thread.dir/SingleThread.cpp.o: \
- /home/nlove/temp/server/thread/SingleThread.cpp \
- /usr/include/stdc-predef.h /home/nlove/temp/server/thread/SingleThread.h \
+ /home/nlove/temp/Reactor_Server/thread/SingleThread.cpp \
+ /usr/include/stdc-predef.h \
+ /home/nlove/temp/Reactor_Server/thread/SingleThread.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -149,10 +150,10 @@ thread/CMakeFiles/thread.dir/SingleThread.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/ext/concurrence.h \
- /home/nlove/temp/server/reactor/EventLoop.h \
- /home/nlove/temp/server/reactor/Dispatcher.h \
- /home/nlove/temp/server/common/Channel.h /usr/include/c++/11/functional \
- /usr/include/c++/11/bits/std_function.h \
+ /home/nlove/temp/Reactor_Server/reactor/EventLoop.h \
+ /home/nlove/temp/Reactor_Server/reactor/Dispatcher.h \
+ /home/nlove/temp/Reactor_Server/common/Channel.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/enable_special_members.h \

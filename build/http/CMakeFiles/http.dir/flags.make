@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dhttp_EXPORTS
 
-CXX_INCLUDES = -I/home/nlove/temp/server/common -I/home/nlove/temp/server/http -I/home/nlove/temp/server/thread -I/home/nlove/temp/server/tcp -I/home/nlove/temp/server/reactor
+CXX_INCLUDES = -I/home/nlove/temp/Reactor_Server/common -I/home/nlove/temp/Reactor_Server/http -I/home/nlove/temp/Reactor_Server/thread -I/home/nlove/temp/Reactor_Server/tcp -I/home/nlove/temp/Reactor_Server/reactor
 
 CXX_FLAGS = -fPIC
 

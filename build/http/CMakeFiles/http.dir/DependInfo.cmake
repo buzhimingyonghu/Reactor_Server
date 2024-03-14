@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nlove/temp/server/http/HttpRequest.cpp" "http/CMakeFiles/http.dir/HttpRequest.cpp.o" "gcc" "http/CMakeFiles/http.dir/HttpRequest.cpp.o.d"
-  "/home/nlove/temp/server/http/HttpResponse.cpp" "http/CMakeFiles/http.dir/HttpResponse.cpp.o" "gcc" "http/CMakeFiles/http.dir/HttpResponse.cpp.o.d"
+  "/home/nlove/temp/Reactor_Server/http/HttpRequest.cpp" "http/CMakeFiles/http.dir/HttpRequest.cpp.o" "gcc" "http/CMakeFiles/http.dir/HttpRequest.cpp.o.d"
+  "/home/nlove/temp/Reactor_Server/http/HttpResponse.cpp" "http/CMakeFiles/http.dir/HttpResponse.cpp.o" "gcc" "http/CMakeFiles/http.dir/HttpResponse.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nlove/temp/server/common/Buffer.cpp" "common/CMakeFiles/common.dir/Buffer.cpp.o" "gcc" "common/CMakeFiles/common.dir/Buffer.cpp.o.d"
-  "/home/nlove/temp/server/common/Channel.cpp" "common/CMakeFiles/common.dir/Channel.cpp.o" "gcc" "common/CMakeFiles/common.dir/Channel.cpp.o.d"
+  "/home/nlove/temp/Reactor_Server/common/Buffer.cpp" "common/CMakeFiles/common.dir/Buffer.cpp.o" "gcc" "common/CMakeFiles/common.dir/Buffer.cpp.o.d"
+  "/home/nlove/temp/Reactor_Server/common/Channel.cpp" "common/CMakeFiles/common.dir/Channel.cpp.o" "gcc" "common/CMakeFiles/common.dir/Channel.cpp.o.d"
   )
 
 # Targets to which this target links.
